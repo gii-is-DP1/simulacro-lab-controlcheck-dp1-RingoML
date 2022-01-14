@@ -31,8 +31,8 @@ public class ProductService {
         return productType;
     }
 
-    public void save(Product p){
-        productRepository.save(p);       
+    public Product save(Product p){
+        return null;       
     }
 
     
